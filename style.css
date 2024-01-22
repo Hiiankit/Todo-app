@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.todo-app {
+    width: 500px;
+}
+
+.input-container {
+    background-color: rgb(40, 38, 38);
+    padding: 0.25rem;
+    border-radius: 0.25rem;
+    width: 100%;
+    display: flex;
+    column-gap: 0.5rem;
+}
+
+.input-container input {
+    outline: none;
+    border: none;
+    background-color: rgb(40, 38, 38);
+    color: white;
+    font-family: inherit;
+    flex-grow: 1;
+} 
+
+::placeholder {
+    color: white;
+}
+
+.input-container button {
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    font-family: inherit;
+} 
+
+.task-list {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    padding: 0.25rem;
+    column-gap: 0.5rem;
+}
+
+.task {
+    flex-grow: 1;
+    color: white;
+}
+
+
+.linear-gradient {
+    max-width: max-content;
+    background: -webkit-linear-gradient(0deg, #e026af 0%, #4152f2 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.red {
+    color: red
+}
+
+.green {
+    color: green
+}
